@@ -10,17 +10,17 @@
     <div class="container">
       <h1>Мой Первый Блог</h1>
         <div>
-          <article>
+          <div class="article">
             <h3>
               <?=$article['title']?>
             </h3>
             <em>Опубликовано: <?=$article['date']?></em>
             <p><?=$article['content']?></p>
-          </article>
+          </div>
         </div>
         <footer>
           <p>
-            Мой Первый Блог <br>Copiryte &copy 2016;
+            Мой Первый Блог <br>Copyright &copy; 2017
           </p>
         </footer>
      </div>

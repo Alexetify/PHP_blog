@@ -12,18 +12,18 @@
       <a href="admin">Панель Администратора</a>
         <div>
           <?php foreach($articles as $a): ?>
-          <article>
+          <div class="article">
             <h3>
-              <a href="article.php?id=<?=$a['id']?>"><?=$a['title']?></a>
+              <a href="articles.php?id=<?=$a['id']?>"><?=$a['title']?></a>
             </h3>
-            <em>Опубликовано: <?=$a['date']?></em>
+            <em>О п у б л и к о в а н о: <?=$a['date']?></em>
             <p><?=$a['content']?></p>
-          </article>
+          </div>
         <?php endforeach ?>
         </div>
         <footer>
           <p>
-            Мой Первый Блог <br>Copiryte &copy 2016;
+            Мой Первый Блог <br>Copyright &copy; 2017
           </p>
         </footer>
      </div>

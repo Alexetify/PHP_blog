@@ -14,7 +14,7 @@
             <h3>
               <?=$article['title']?>
             </h3>
-            <em>Опубликовано: <?=$article['date']?></em>
+            <em>О п у б л и к о в а н о : <?=$article['date']?></em>
             <p><?=$article['content']?></p>
           </div>
         </div>
